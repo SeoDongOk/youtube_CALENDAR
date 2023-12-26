@@ -4,3 +4,8 @@
   padding: 2rem;
   text-align: center;
 }
+
+/* 개발자 도구에서 해당 태그 찾아서 display: none ! important로 보이기 삭제하기 */
+.css-1hbyad5-MuiTypography-root {
+  display: none !important;
+}
