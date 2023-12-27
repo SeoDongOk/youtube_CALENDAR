@@ -9,7 +9,7 @@ import { Badge } from "@mui/material";
 const Calender = () => {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <StaticDatePicker orientation="portrait" />
+      <StaticDatePicker orientation="landscape" />
     </LocalizationProvider>
   );
 };
